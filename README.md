@@ -106,3 +106,7 @@ Pour signaler un problème ou proposer une amélioration, ouvrez une **issue** d
 ## 🎉 Essayez-le dès maintenant !
 
 Simplifiez vos projets Raspberry Pi avec ce plugin indispensable. Testez-le aujourd’hui et donnez un coup de boost visuel à vos projets GPIO !
+
+## 🌐 Démo en ligne
+
+Découvrez une démonstration en direct de notre plugin ici : [Démo disponible](https://codeine.ch/plugin-pinout-display/)
