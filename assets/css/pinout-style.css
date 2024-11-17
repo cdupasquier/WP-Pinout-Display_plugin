@@ -1,0 +1,90 @@
+#pinout-grid {
+    display: grid;
+    grid-template-columns: repeat(10, 50px); /* Adapte selon ton design */
+    grid-gap: 5px;
+}
+
+#pinout-grid .pin {
+    width: 50px;
+    height: 50px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+#pinout-details {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+    display: none; /* Masqué par défaut */
+}
+
+#rpi-svg {
+    max-width: 100%;
+    height: auto;
+}
+
+.pin {
+    cursor: pointer;
+}
+
+.pin:hover {
+    stroke: yellow;
+    stroke-width: 2;
+}
+
+#pinout-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#svg-container {
+    flex: 1;
+    max-width: 50%;
+}
+
+#pinout-details {
+    flex: 1;
+    max-width: 50%;
+    margin-left: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+#pinout-details h2 {
+    font-size: 18px; /* Taille de la police souhaitée */
+    margin: 0; /* Réduit l'espacement autour du titre */
+    color: #333; /* Couleur du texte */
+}
+#color-legend {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#color-legend table {
+    width: 100%;
+}
+
+#color-legend td {
+    padding: 5px;
+}
+
+.pin:hover {
+    cursor: pointer;
+    fill: yellow; /* Changer la couleur au survol */
+}
+
+.pinout-active {
+    fill: yellow;
+}
+
